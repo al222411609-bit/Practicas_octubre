@@ -39,8 +39,8 @@ body {
 
 /* Panel de control */
 .search-panel {
-  background-color: #ffffff;
-  border: 1px solid #d1d5db;
+  background-color: #fde8f1;
+  border: 1px solid #f3b9d2;
   border-radius: 4px;
   padding: 20px;
   margin-bottom: 24px;
@@ -49,7 +49,7 @@ body {
   font-size: 18px;
   margin-bottom: 8px;
   color: #111827;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #f3b9d2;
   padding-bottom: 6px;
   text-align: center;
 }
@@ -64,9 +64,9 @@ body {
   margin-bottom: 18px;
 }
 .btn-category {
-  background-color: #f3f4f6;
-  color: #1f2937;
-  border: 1px solid #d1d5db;
+  background-color: #e6d9f8;
+  color: #3b1d6b;
+  border: 1px solid #c4aaee;
   padding: 8px 14px;
   border-radius: 4px;
   font-size: 13px;
@@ -74,8 +74,8 @@ body {
   cursor: pointer;
   font-weight: 500;
 }
-.btn-category:hover { background-color: #e5e7eb; border-color: #9ca3af; }
-.btn-category.active { background-color: hsl(120, 84%, 17%); color: #ffffff; border-color: var(--verde-borde); }
+.btn-category:hover { background-color: #d6c2f2; border-color: #a98be0; }
+.btn-category.active { background-color: #b79cec; color: #2a0f55; border-color: #8f6bd6; font-weight: bold; }
 
 /* Formulario */
 .search-form { display: flex; flex-direction: column; gap: 12px; }
@@ -101,12 +101,12 @@ body {
   margin-top: 4px;
 }
 .preview-text { font-size: 13px; color: #4b5563; }
-.preview-text strong { color: var(--verde); }
+.preview-text strong { color: #5b21b6; }
 
 .btn-submit {
-  background-color: var(--verde-oscuro);
-  color: #ffffff;
-  border: none;
+  background-color: #d9c6f5;
+  color: #2a0f55;
+  border: 1px solid #b79cec;
   padding: 10px 22px;
   border-radius: 4px;
   font-size: 14px;
@@ -114,14 +114,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
 }
-.btn-submit:hover { background-color: var(--verde); }
+.btn-submit:hover { background-color: #c7aaf0; }
 
 /* Informacion tecnica */
 .technical-info {
   margin-top: 16px;
   padding: 10px 12px;
-  background-color: #f9fafb;
-  border: 1px solid #e5e7eb;
+  background-color: #fff4f9;
+  border: 1px solid #f3b9d2;
   border-radius: 4px;
   font-size: 12px;
   color: #4b5563;
